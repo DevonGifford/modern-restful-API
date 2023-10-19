@@ -1,28 +1,33 @@
-# REST API With Node, Express, TypeScript & MongoDB
+<div align="center">
+   <h1>REST API - Brush up</h1>
+   <img src="https://skillicons.dev/icons?i=nodejs,express,mongo,ts" /><br>
+   <p><em>Simple and efficient way to handle HTTP requests and interact with a MongoDB database</em><p>
 
-## Description
+</div>
 
-This project is a RESTful API built using Node, Express, TypeScript, and MongoDB. It provides a simple and efficient way to handle HTTP requests and interact with a MongoDB database.
 
-## Project Goals
 
-The main objectives of this project were:
+<br/>
+<br/>
 
-- Create a robust and scalable API using modern technologies.
-- Implement TypeScript for improved code maintainability and type safety.
-- Utilize MongoDB as the database for data storage and retrieval.
-- Develop a set of controllers and middlewares to handle authentication and user-related operations.
+##### MAIN OBJECTIVES:
+---
 
-## What I Learned
+- Create a robust and scalable API with Express and modern technologies, following best practices (see: [node best practices](https://github.com/goldbergyoni/nodebestpractices)) 
 
-During the development of this project, I gained valuable experience in:
+- Improved code maintainability and type safety with TypeScript.  
+  
+- Integrating and interacting with a MongoDB database, using Mongoose (ODM)
 
-- Setting up a Node.js environment with TypeScript for a backend application.
-- Integrating and interacting with a MongoDB database using Mongoose.
-- Implementing authentication mechanisms for user management.
 - Organizing the codebase using controllers, middlewares, and routes for better maintainability.
 
-## Tools Used
+- Implementing authentication mechanisms for user management.
+
+
+<br/>
+
+#### TOOLS USED
+---
 
 - **Node.js**: A JavaScript runtime environment for executing JavaScript on the server-side.
 - **Express.js**: A web application framework for building robust and scalable APIs.
@@ -36,9 +41,54 @@ During the development of this project, I gained valuable experience in:
 - **Cors**: Middleware for handling Cross-Origin Resource Sharing.
 - **Lodash**: A utility library providing useful functions for working with arrays, objects, and more.
 
-## Getting Started
 
-1. Clone the repository:
 
-   ```shell
-   git clone https://github.com/AntonioErdeljac/ts-node-mongo-rest-api-tutorial.git
+
+
+
+
+
+
+<br/>
+<br/>
+<br/>
+
+<!-- ---------------------------------------------------------------------------------------------- -->
+
+<div align="center">
+   <h1>🏃‍♂️ Running Locally 🏃‍♂️ </h1>
+
+</div>
+
+#### Prerequisites
+
+<em>Node version 18.15.x</em>
+
+#### Cloning the repository
+
+```shell
+git clone 
+```
+
+#### Install packages
+
+```shell
+npm i
+```
+
+#### Setup MongoDB URL
+
+In `src/index.ts`:
+
+```js
+const MONGO_URL = ''; // INSERT YOUR DB URI
+```
+
+
+#### Available commands
+
+Running commands with npm `npm run [command]`
+
+| command         | description                              |
+| :-------------- | :--------------------------------------- |
+| `start`         | Starts a development instance of the app |
